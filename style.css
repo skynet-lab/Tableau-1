@@ -1,9 +1,45 @@
-h1 {text-align: center;
-}
-table {
-margin: auto;
-}
-td{
-  text-align :center;
+h1 {
+  text-align: center;
 }
 
+table {
+  margin: auto;
+  border-collapse: collapse;
+  display: inline-table;
+  margin-top: 30px;
+}
+
+table td, table th{
+  text-align :center;
+  border: 2px solid black;
+
+}
+
+th{
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+td{
+  font-size: 0.7em;
+  font-weight: normal;
+}
+
+thead, tfoot{
+  background-color: aqua;
+
+}
+.pause{
+  background-color: darkred;
+  color: white;
+}
+
+.td{
+  background-color: cadetblue;
+  color: white;
+}
+
+.ba{
+  background-color: darkred;
+  color: white;
+}
