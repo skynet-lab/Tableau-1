@@ -1,9 +1,38 @@
+body{
+  background-image: url(img/gow.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
 h1 {text-align: center;
 }
 table {
 margin: auto;
-}
-td{
-  text-align :center;
+border-collapse: collapse;
+border: 3px solid black ;
+font-size: 32px;
+background-color: blanchedalmond ;
+margin-top: 5%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
+td{
+  text-align :center;
+  border: 3px solid black;
+  ;
+
+}
+.one{
+  background-color: rgb(255, 0, 0);
+
+}
+.five{
+  background-color: rgb(255, 0, 0);
+}
+tr.pop{
+  background-color: rgb(223, 57, 57);
+}
+tr.pap{
+  background-color: rgb(223, 57, 57);
+}
